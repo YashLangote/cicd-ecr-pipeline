@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCOUNT_ID = '761639967858' // Replace with your AWS Account ID
+        AWS_ACCOUNT_ID = '123456789012' // Replace with your AWS Account ID
         AWS_REGION = 'eu-north-1'       // Replace with your AWS Region
         ECR_REPO_NAME = 'my-flask-app' // Replace with your ECR Repo Name
         IMAGE_TAG = "${env.BUILD_NUMBER}"
