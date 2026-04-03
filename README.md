@@ -76,15 +76,3 @@ This pipeline is defined as code (Jenkinsfile) and executes the following automa
 - **Jenkinsfile:** The declarative CI/CD pipeline script.
 
 - **lambda_function.py:** The post-deployment automation logic.
-
-***
-
-### How to add this to your repo:
-1. On your computer, open your `cicd-ecr-pipeline` folder.
-2. Create a new file named `README.md`.
-3. Paste the markdown text above into the file and save it.
-4. Run these terminal commands to push it:
-   ```bash
-   git add README.md
-   git commit -m "Add final project README and architecture diagram"
-   git push origin main
